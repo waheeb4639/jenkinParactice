@@ -26,7 +26,7 @@ exports.showUser = async (req, res) => {
 		ResponseCode.SUCCESS,
 		Message.REQUEST_SUCCESSFUL
 	);
-	response.user = "User Data Here";
+	response.user = "User Data Here.";
 	return res.status(response.code).json(response);
 };
 /////////**************************** *///////////////////////////
